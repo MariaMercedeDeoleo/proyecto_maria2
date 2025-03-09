@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Veterinaria Patas Felices</title>
+  <!-- Bootstrap 5.3.0 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6.0 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Menú Fijo Superior -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">Clínica Veterinaria Patas Felices </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
+              aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Inicio -->
+  <section id="inicio" class="pt-5 mt-5">
+    <div class="container text-center">
+      <h1>🐾 Bienvenidos a Nuestra Clínica Patitas Felices 🐾</h1>
+      <p class="lead">Cuidamos a tu mascota con amor y profesionalismo.</p>
+      <img src="https://www.elespectador.com/resizer/v2/2YPNRFIQDFE75DFMIZCMM73ZWU.jpg?auth=334bca6440ea69d32af63a29bfb0d5eeae3e6b05dfab50c6c783b56f400f4021&width=910&height=606&smart=true&quality=70" class="img-fluid" alt="Banner" style="width: 100%; object-fit: cover;">
+      <br>
+      <a href="#contacto" class="btn btn-primary btn-lg mt-3">¡Contáctanos Ahora!</a>
+    </div>
+  </section>
+
+  <!-- Sección Servicios -->
+  <section id="servicios" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestros Servicios</h2>
+      <div class="row">
+        <!-- Card 1: Consulta General -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow hover-effect">
+            <img src="https://clinicalvetmedellin.com/wp-content/uploads/2020/07/cita-con-veterinarios-1024x768.jpg" 
+                 class="card-img-top" alt="Consulta General" style="height:200px; object-fit: cover;">
+            <div class="card-body">
+              <i class="fas fa-user-md fa-2x text-primary mb-3"></i>
+              <h5 class="card-title">Consulta General</h5>
+              <p class="card-text">Evaluaciones de salud y chequeos regulares .</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2: Vacunacion y Desparasitacion -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow hover-effect">
+            <img src="https://www.befoods.cl/cdn/shop/articles/Diseno_sin_titulo_-_2023-07-25T122457.416.png?v=1690302560" 
+                 class="card-img-top" alt="Cirugías" style="height:200px; object-fit: cover;">
+            <div class="card-body">
+              <i class="fas fa-scalpel fa-2x text-secondary mb-3"></i>
+              <h5 class="card-title">Vacunacion y Desparasitacion</h5>
+              <p class="card-text">Programa completo para mantener a los perritas protegidas .</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3: Peluquería -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow hover-effect">
+            <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/dise%C3%B1o%20sin%20t%C3%ADtulo%20-%202022-06-08t131221-1654686761.207" 
+                 class="card-img-top" alt="Peluquería" style="height:200px; object-fit: cover;">
+            <div class="card-body">
+              <i class="fas fa-cut fa-2x text-accent mb-3"></i>
+              <h5 class="card-title">Estetica canina</h5>
+              <p class="card-text">Baños medicados,cortes de pelo y limpieza de oidos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Equipo -->
+  <section id="equipo" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestro Equipo</h2>
+      <div class="row">
+        <!-- Perfil 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card text-center shadow">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCo-p_h0E26Q5_Sn2OxdHSM3LETcEG0CT5Ng&s" 
+                 class="card-img-top rounded-circle mx-auto mt-3" alt="Dra. Valeria Mendoza " 
+                 style="width:150px; height:150px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Dra. Valeria Mendoza </h5>
+              <p class="card-text"><strong>Especialidad:</strong> Medicina General</p>
+              <p class="card-text">Experta en el cuidado integral de mascotas, con años de experiencia en la clínica.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Perfil 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card text-center shadow">
+            <img src="https://veterinariadomicilio.cl/wp-content/uploads/2016/10/cirugias-animales-3.jpg" 
+                 class="card-img-top rounded-circle mx-auto mt-3" alt="Dr. Carlos Méndez" 
+                 style="width:150px; height:150px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Dr. Sebastian Ortiz </h5>
+              <p class="card-text"><strong>Especialidad:</strong> Cirugía</p>
+              <p class="card-text">Experto en cirugia y emergencias .</p>
+            </div>
+          </div>
+        </div>
+        <!-- Perfil 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card text-center shadow">
+            <img src="https://img.freepik.com/foto-gratis/doctor-tiro-medio-lindo-perro_23-2149271795.jpg" 
+                 class="card-img-top rounded-circle mx-auto mt-3" alt="Dra. Laura Gómez" 
+                 style="width:150px; height:150px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Dra. Camilia Herrera</h5>
+              <p class="card-text"><strong>Especialidad:</strong> Dermatología</p>
+              <p class="card-text">Profesional en fisioterapia y rehabilitacion canina.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <div class="row">
+        <!-- Tarjeta de Teléfono -->
+        <div class="col-md-6 mb-4">
+          <div class="card text-center shadow hover-effect contact-card">
+            <div class="card-body">
+              <h3>+xx-xxxx-xxxxxx-xxx</h3>
+              <a href="https://wa.me/xxxxxxxxxxx" target="_blank" class="btn btn-success">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Formulario de Contacto -->
+        <div class="col-md-6 mb-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <form id="contactForm" novalidate>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="name" required>
+                  <div class="invalid-feedback">
+                    Por favor ingresa tu nombre.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                  <div class="invalid-feedback">
+                    Por favor ingresa un email válido.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="message" rows="3" required></textarea>
+                  <div class="invalid-feedback">
+                    Por favor ingresa un mensaje.
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal de Confirmación -->
+  <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="confirmationModalLabel">¡Envío Exitoso! 🎉</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          Tu mensaje ha sido enviado. ¡Gracias por contactarnos! 😊
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container text-center">
+      <div class="mb-3">
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p>Dirección: Calle Falsa 123, Ciudad</p>
+      <p>Horarios: Lun-Vie 9:00 - 18:00</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (incluye Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+  :root {
+  --primary-color: #2C3E50;
+  --secondary-color: #18BC9C;
+  --accent-color: #F39C12;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+/* Tipografía y títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Cards y efectos hover */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Botones */
+.btn {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Animación en tarjeta de contacto */
+.contact-card:hover {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 5px var(--secondary-color); }
+  50% { box-shadow: 0 0 20px var(--secondary-color); }
+  100% { box-shadow: 0 0 5px var(--secondary-color); }
+}
+
+/* Estilos personalizados para el formulario de contacto */
+.card form {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Responsividad: Ajuste de imagenes en cards */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 150px !important;
+  }
+}
